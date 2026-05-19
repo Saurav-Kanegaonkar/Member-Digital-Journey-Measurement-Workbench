@@ -1,0 +1,221 @@
+action_id,entity_id,action_type,effort_hours,expected_lift_pct,status
+ACT0001,DIG034,monitor,36,22.1,Proposed
+ACT0002,DIG023,monitor,4,2.3,Proposed
+ACT0003,DIG017,escalate,31,14.3,Ready
+ACT0004,DIG016,validate,42,2.4,Complete
+ACT0005,DIG031,prioritize,42,20.9,Proposed
+ACT0006,DIG033,monitor,41,9.8,In Review
+ACT0007,DIG002,automate,36,12.1,Ready
+ACT0008,DIG033,validate,8,19.9,Ready
+ACT0009,DIG028,automate,31,13.3,Complete
+ACT0010,DIG026,prioritize,11,14.7,Ready
+ACT0011,DIG022,monitor,36,2.8,In Review
+ACT0012,DIG026,automate,9,11.2,Ready
+ACT0013,DIG016,prioritize,32,11.5,Ready
+ACT0014,DIG028,automate,11,7.1,Proposed
+ACT0015,DIG036,escalate,15,15.2,Ready
+ACT0016,DIG036,validate,33,11.8,Complete
+ACT0017,DIG003,monitor,23,10.3,In Review
+ACT0018,DIG025,escalate,25,5.6,In Review
+ACT0019,DIG020,validate,2,13.0,Ready
+ACT0020,DIG012,validate,27,16.5,Proposed
+ACT0021,DIG029,automate,33,18.8,Proposed
+ACT0022,DIG003,validate,35,6.9,In Review
+ACT0023,DIG019,document,16,19.7,Proposed
+ACT0024,DIG017,monitor,3,10.5,In Review
+ACT0025,DIG025,escalate,3,4.5,Proposed
+ACT0026,DIG015,validate,2,11.2,Complete
+ACT0027,DIG027,monitor,28,19.4,Ready
+ACT0028,DIG036,escalate,10,11.1,Complete
+ACT0029,DIG021,monitor,8,20.8,Ready
+ACT0030,DIG006,monitor,18,21.5,Proposed
+ACT0031,DIG014,document,31,9.5,Complete
+ACT0032,DIG005,monitor,24,22.6,In Review
+ACT0033,DIG033,automate,18,23.3,Proposed
+ACT0034,DIG001,document,9,13.6,In Review
+ACT0035,DIG012,escalate,31,8.7,Ready
+ACT0036,DIG036,prioritize,16,14.7,Complete
+ACT0037,DIG003,validate,9,11.5,In Review
+ACT0038,DIG005,validate,39,8.8,Proposed
+ACT0039,DIG028,prioritize,31,10.7,In Review
+ACT0040,DIG033,monitor,35,12.6,Proposed
+ACT0041,DIG032,prioritize,26,10.5,Ready
+ACT0042,DIG011,document,2,12.9,Complete
+ACT0043,DIG003,automate,8,7.3,Ready
+ACT0044,DIG019,prioritize,33,23.3,Proposed
+ACT0045,DIG019,validate,41,13.4,Ready
+ACT0046,DIG031,escalate,39,8.8,In Review
+ACT0047,DIG023,document,27,15.1,Proposed
+ACT0048,DIG028,escalate,4,9.9,Complete
+ACT0049,DIG035,monitor,41,4.0,In Review
+ACT0050,DIG002,escalate,26,19.9,In Review
+ACT0051,DIG022,document,4,21.9,Proposed
+ACT0052,DIG015,monitor,22,20.4,Complete
+ACT0053,DIG016,escalate,43,14.5,Complete
+ACT0054,DIG016,document,31,23.8,In Review
+ACT0055,DIG028,monitor,24,15.7,In Review
+ACT0056,DIG033,monitor,4,13.9,In Review
+ACT0057,DIG027,validate,14,19.4,Complete
+ACT0058,DIG031,escalate,39,10.1,In Review
+ACT0059,DIG032,document,21,4.1,Complete
+ACT0060,DIG020,document,40,6.6,Ready
+ACT0061,DIG018,validate,27,5.7,In Review
+ACT0062,DIG012,monitor,40,14.5,Complete
+ACT0063,DIG029,monitor,21,20.4,Ready
+ACT0064,DIG027,prioritize,31,4.2,Ready
+ACT0065,DIG010,monitor,41,9.9,Ready
+ACT0066,DIG020,monitor,34,17.6,In Review
+ACT0067,DIG036,automate,19,13.2,In Review
+ACT0068,DIG031,prioritize,38,2.2,In Review
+ACT0069,DIG022,monitor,5,8.4,Proposed
+ACT0070,DIG003,automate,27,13.7,Complete
+ACT0071,DIG031,escalate,32,23.9,Proposed
+ACT0072,DIG015,prioritize,4,13.9,Proposed
+ACT0073,DIG013,automate,27,16.5,Ready
+ACT0074,DIG001,document,37,15.4,Proposed
+ACT0075,DIG019,monitor,12,7.7,Proposed
+ACT0076,DIG030,prioritize,33,3.1,Proposed
+ACT0077,DIG010,automate,28,4.7,In Review
+ACT0078,DIG012,document,4,4.7,Complete
+ACT0079,DIG005,monitor,35,2.8,Ready
+ACT0080,DIG028,monitor,12,21.2,Ready
+ACT0081,DIG021,document,40,21.6,In Review
+ACT0082,DIG027,escalate,20,22.8,Proposed
+ACT0083,DIG024,automate,14,11.2,Complete
+ACT0084,DIG016,validate,32,18.6,In Review
+ACT0085,DIG014,automate,11,11.7,Proposed
+ACT0086,DIG030,automate,3,4.5,In Review
+ACT0087,DIG010,validate,17,22.2,Ready
+ACT0088,DIG002,prioritize,21,14.5,Proposed
+ACT0089,DIG012,validate,43,13.0,In Review
+ACT0090,DIG032,validate,37,21.3,Proposed
+ACT0091,DIG008,escalate,35,15.9,Ready
+ACT0092,DIG035,document,4,19.2,In Review
+ACT0093,DIG005,document,8,14.6,In Review
+ACT0094,DIG022,monitor,29,21.9,Complete
+ACT0095,DIG021,escalate,26,13.0,Complete
+ACT0096,DIG034,prioritize,41,7.9,Proposed
+ACT0097,DIG011,validate,30,16.4,Complete
+ACT0098,DIG032,validate,10,10.0,Ready
+ACT0099,DIG021,automate,15,20.1,Complete
+ACT0100,DIG005,automate,19,10.3,In Review
+ACT0101,DIG021,escalate,23,21.5,In Review
+ACT0102,DIG034,validate,36,22.4,Ready
+ACT0103,DIG031,document,39,13.7,Proposed
+ACT0104,DIG015,prioritize,10,9.9,In Review
+ACT0105,DIG005,escalate,26,8.5,Ready
+ACT0106,DIG022,prioritize,43,23.1,In Review
+ACT0107,DIG011,monitor,8,22.0,Ready
+ACT0108,DIG028,document,12,15.5,Proposed
+ACT0109,DIG001,prioritize,18,21.5,In Review
+ACT0110,DIG028,document,9,10.2,In Review
+ACT0111,DIG013,document,43,16.5,Ready
+ACT0112,DIG033,prioritize,6,9.0,Complete
+ACT0113,DIG022,monitor,44,18.2,Proposed
+ACT0114,DIG007,automate,43,23.2,In Review
+ACT0115,DIG016,monitor,19,15.8,Complete
+ACT0116,DIG010,escalate,14,10.6,Proposed
+ACT0117,DIG008,prioritize,40,20.4,In Review
+ACT0118,DIG031,validate,28,6.8,Complete
+ACT0119,DIG014,escalate,7,13.5,In Review
+ACT0120,DIG011,validate,11,21.5,Ready
+ACT0121,DIG035,document,29,20.3,Proposed
+ACT0122,DIG007,automate,38,20.6,Ready
+ACT0123,DIG001,automate,6,10.9,In Review
+ACT0124,DIG016,monitor,4,7.6,In Review
+ACT0125,DIG019,document,10,22.9,Ready
+ACT0126,DIG006,document,21,14.7,Proposed
+ACT0127,DIG022,prioritize,32,21.7,Ready
+ACT0128,DIG009,prioritize,4,3.3,In Review
+ACT0129,DIG020,prioritize,6,17.3,Proposed
+ACT0130,DIG022,prioritize,15,23.8,In Review
+ACT0131,DIG035,escalate,35,8.0,Complete
+ACT0132,DIG031,validate,21,3.6,Complete
+ACT0133,DIG020,prioritize,40,5.5,Proposed
+ACT0134,DIG006,document,3,9.8,Proposed
+ACT0135,DIG015,validate,17,22.2,Ready
+ACT0136,DIG006,document,18,21.7,Complete
+ACT0137,DIG032,monitor,10,2.1,In Review
+ACT0138,DIG008,automate,33,19.3,Ready
+ACT0139,DIG001,escalate,15,21.2,Complete
+ACT0140,DIG036,document,21,12.1,Proposed
+ACT0141,DIG001,document,36,11.8,In Review
+ACT0142,DIG017,escalate,3,6.9,Ready
+ACT0143,DIG030,escalate,41,9.7,Proposed
+ACT0144,DIG029,escalate,37,4.2,In Review
+ACT0145,DIG035,prioritize,9,20.7,Complete
+ACT0146,DIG023,validate,27,23.4,Proposed
+ACT0147,DIG019,document,3,13.4,Complete
+ACT0148,DIG028,prioritize,32,3.1,Complete
+ACT0149,DIG002,monitor,2,17.5,In Review
+ACT0150,DIG009,monitor,6,21.6,Complete
+ACT0151,DIG020,automate,17,22.3,In Review
+ACT0152,DIG012,prioritize,10,12.7,In Review
+ACT0153,DIG032,escalate,25,5.0,Ready
+ACT0154,DIG029,automate,3,9.9,Ready
+ACT0155,DIG032,document,15,8.6,Ready
+ACT0156,DIG021,escalate,20,15.0,Proposed
+ACT0157,DIG023,monitor,9,6.4,Proposed
+ACT0158,DIG029,monitor,20,17.9,Ready
+ACT0159,DIG017,validate,15,18.0,Proposed
+ACT0160,DIG035,automate,7,5.9,In Review
+ACT0161,DIG027,prioritize,3,15.0,In Review
+ACT0162,DIG006,escalate,21,19.6,Ready
+ACT0163,DIG030,escalate,10,8.3,In Review
+ACT0164,DIG006,prioritize,9,20.1,Ready
+ACT0165,DIG020,prioritize,15,14.9,Complete
+ACT0166,DIG009,monitor,23,15.7,In Review
+ACT0167,DIG009,validate,23,17.5,Proposed
+ACT0168,DIG011,prioritize,30,16.8,In Review
+ACT0169,DIG034,document,40,8.2,Ready
+ACT0170,DIG011,validate,20,13.7,Ready
+ACT0171,DIG026,monitor,28,18.2,Proposed
+ACT0172,DIG025,prioritize,33,6.3,Complete
+ACT0173,DIG016,document,30,12.2,Ready
+ACT0174,DIG010,monitor,27,8.1,Ready
+ACT0175,DIG020,validate,9,4.9,Ready
+ACT0176,DIG035,validate,44,17.6,Ready
+ACT0177,DIG026,prioritize,28,17.8,In Review
+ACT0178,DIG009,prioritize,7,19.2,Ready
+ACT0179,DIG011,validate,35,12.0,In Review
+ACT0180,DIG028,prioritize,11,10.2,In Review
+ACT0181,DIG012,escalate,6,13.6,In Review
+ACT0182,DIG029,automate,39,16.6,Ready
+ACT0183,DIG008,prioritize,35,7.2,In Review
+ACT0184,DIG003,automate,7,22.6,Ready
+ACT0185,DIG002,monitor,39,13.8,In Review
+ACT0186,DIG007,validate,19,17.8,Complete
+ACT0187,DIG025,escalate,36,4.2,Ready
+ACT0188,DIG022,document,38,14.4,Ready
+ACT0189,DIG014,monitor,26,7.5,Ready
+ACT0190,DIG035,document,3,22.3,Complete
+ACT0191,DIG006,prioritize,20,20.5,Complete
+ACT0192,DIG007,escalate,32,10.5,Proposed
+ACT0193,DIG030,validate,29,17.8,Complete
+ACT0194,DIG034,validate,25,17.4,In Review
+ACT0195,DIG028,prioritize,39,16.9,Proposed
+ACT0196,DIG006,prioritize,14,16.9,Proposed
+ACT0197,DIG003,prioritize,16,5.3,Ready
+ACT0198,DIG032,prioritize,12,12.8,Ready
+ACT0199,DIG005,monitor,41,3.8,Complete
+ACT0200,DIG021,prioritize,43,19.6,Ready
+ACT0201,DIG013,validate,4,10.2,Complete
+ACT0202,DIG028,automate,17,20.6,Complete
+ACT0203,DIG024,validate,23,23.6,In Review
+ACT0204,DIG020,validate,28,8.1,Complete
+ACT0205,DIG017,document,33,15.6,Complete
+ACT0206,DIG025,escalate,10,15.2,Ready
+ACT0207,DIG005,prioritize,37,5.7,Ready
+ACT0208,DIG020,automate,26,17.5,Ready
+ACT0209,DIG005,escalate,44,4.3,Ready
+ACT0210,DIG003,escalate,42,21.7,Proposed
+ACT0211,DIG035,escalate,10,6.3,Proposed
+ACT0212,DIG006,prioritize,29,9.1,Ready
+ACT0213,DIG001,escalate,14,8.5,Proposed
+ACT0214,DIG020,automate,7,2.6,Proposed
+ACT0215,DIG036,prioritize,17,7.0,Ready
+ACT0216,DIG029,escalate,28,10.3,In Review
+ACT0217,DIG004,validate,27,22.2,Complete
+ACT0218,DIG006,automate,5,11.2,In Review
+ACT0219,DIG025,prioritize,21,12.4,Ready
+ACT0220,DIG007,escalate,9,19.2,In Review
