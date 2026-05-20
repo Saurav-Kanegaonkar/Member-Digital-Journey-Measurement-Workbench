@@ -1,0 +1,145 @@
+journey_id,adobe_variable,data_element,purpose,required_for_journey,coverage_rate,lifecycle_status,processing_rule,launch_rule,schema_status
+JRN001,eVar12,journey_name,Persistent journey name,yes,0.853,active,set eVar12 from digitalData.journey_name,join_membership_rule,approved
+JRN001,eVar18,member_status,"Known member, guest, household associate",yes,0.628,active,set eVar18 from digitalData.member_status,join_membership_rule,needs QA
+JRN001,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.681,active,set eVar21 from digitalData.business_line,join_membership_rule,needs QA
+JRN001,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.779,active,set eVar32 from digitalData.auth_state,join_membership_rule,approved
+JRN001,eVar41,quote_type,Lead product type for quote journeys,no,0.732,review,set eVar41 from digitalData.quote_type,join_membership_rule,approved
+JRN001,prop9,page_template,Template taxonomy for content performance,yes,0.757,active,set prop9 from digitalData.page_template,join_membership_rule,approved
+JRN001,event14,journey_start,Journey start counter,yes,0.636,active,set event14 from digitalData.journey_start,join_membership_rule,needs QA
+JRN001,event22,journey_complete,Journey completion counter,yes,0.749,active,set event22 from digitalData.journey_complete,join_membership_rule,approved
+JRN001,event31,lead_submit,Lead generation completion counter,no,0.836,active,set event31 from digitalData.lead_submit,join_membership_rule,approved
+JRN001,event44,self_service_success,Self-service transaction completion,yes,0.614,active,set event44 from digitalData.self_service_success,join_membership_rule,needs QA
+JRN001,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.582,review,set event52 from digitalData.identity_bridge_success,join_membership_rule,needs QA
+JRN001,event63,validation_error,Release QA validation failure,yes,0.65,active,set event63 from digitalData.validation_error,join_membership_rule,needs QA
+JRN002,eVar12,journey_name,Persistent journey name,yes,0.855,active,set eVar12 from digitalData.journey_name,renew_membership_rule,approved
+JRN002,eVar18,member_status,"Known member, guest, household associate",yes,0.782,active,set eVar18 from digitalData.member_status,renew_membership_rule,approved
+JRN002,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.802,active,set eVar21 from digitalData.business_line,renew_membership_rule,approved
+JRN002,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.914,active,set eVar32 from digitalData.auth_state,renew_membership_rule,approved
+JRN002,eVar41,quote_type,Lead product type for quote journeys,no,0.715,review,set eVar41 from digitalData.quote_type,renew_membership_rule,approved
+JRN002,prop9,page_template,Template taxonomy for content performance,yes,0.919,active,set prop9 from digitalData.page_template,renew_membership_rule,approved
+JRN002,event14,journey_start,Journey start counter,yes,0.725,active,set event14 from digitalData.journey_start,renew_membership_rule,approved
+JRN002,event22,journey_complete,Journey completion counter,yes,0.871,active,set event22 from digitalData.journey_complete,renew_membership_rule,approved
+JRN002,event31,lead_submit,Lead generation completion counter,no,0.74,active,set event31 from digitalData.lead_submit,renew_membership_rule,approved
+JRN002,event44,self_service_success,Self-service transaction completion,yes,0.773,active,set event44 from digitalData.self_service_success,renew_membership_rule,approved
+JRN002,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.714,review,set event52 from digitalData.identity_bridge_success,renew_membership_rule,needs QA
+JRN002,event63,validation_error,Release QA validation failure,yes,0.689,active,set event63 from digitalData.validation_error,renew_membership_rule,needs QA
+JRN003,eVar12,journey_name,Persistent journey name,yes,0.702,active,set eVar12 from digitalData.journey_name,upgrade_plan_rule,needs QA
+JRN003,eVar18,member_status,"Known member, guest, household associate",yes,0.798,active,set eVar18 from digitalData.member_status,upgrade_plan_rule,approved
+JRN003,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.772,active,set eVar21 from digitalData.business_line,upgrade_plan_rule,approved
+JRN003,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.797,active,set eVar32 from digitalData.auth_state,upgrade_plan_rule,approved
+JRN003,eVar41,quote_type,Lead product type for quote journeys,no,0.549,review,set eVar41 from digitalData.quote_type,upgrade_plan_rule,approved
+JRN003,prop9,page_template,Template taxonomy for content performance,yes,0.593,active,set prop9 from digitalData.page_template,upgrade_plan_rule,needs QA
+JRN003,event14,journey_start,Journey start counter,yes,0.768,active,set event14 from digitalData.journey_start,upgrade_plan_rule,approved
+JRN003,event22,journey_complete,Journey completion counter,yes,0.718,active,set event22 from digitalData.journey_complete,upgrade_plan_rule,needs QA
+JRN003,event31,lead_submit,Lead generation completion counter,no,0.728,active,set event31 from digitalData.lead_submit,upgrade_plan_rule,approved
+JRN003,event44,self_service_success,Self-service transaction completion,yes,0.615,active,set event44 from digitalData.self_service_success,upgrade_plan_rule,needs QA
+JRN003,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.431,review,set event52 from digitalData.identity_bridge_success,upgrade_plan_rule,schema gap
+JRN003,event63,validation_error,Release QA validation failure,yes,0.613,active,set event63 from digitalData.validation_error,upgrade_plan_rule,needs QA
+JRN004,eVar12,journey_name,Persistent journey name,yes,0.766,active,set eVar12 from digitalData.journey_name,request_roadside_assistance_rule,approved
+JRN004,eVar18,member_status,"Known member, guest, household associate",yes,0.99,active,set eVar18 from digitalData.member_status,request_roadside_assistance_rule,approved
+JRN004,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.901,active,set eVar21 from digitalData.business_line,request_roadside_assistance_rule,approved
+JRN004,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.972,active,set eVar32 from digitalData.auth_state,request_roadside_assistance_rule,approved
+JRN004,eVar41,quote_type,Lead product type for quote journeys,no,0.863,review,set eVar41 from digitalData.quote_type,request_roadside_assistance_rule,approved
+JRN004,prop9,page_template,Template taxonomy for content performance,yes,0.941,active,set prop9 from digitalData.page_template,request_roadside_assistance_rule,approved
+JRN004,event14,journey_start,Journey start counter,yes,0.926,active,set event14 from digitalData.journey_start,request_roadside_assistance_rule,approved
+JRN004,event22,journey_complete,Journey completion counter,yes,0.845,active,set event22 from digitalData.journey_complete,request_roadside_assistance_rule,approved
+JRN004,event31,lead_submit,Lead generation completion counter,no,0.895,active,set event31 from digitalData.lead_submit,request_roadside_assistance_rule,approved
+JRN004,event44,self_service_success,Self-service transaction completion,yes,0.758,active,set event44 from digitalData.self_service_success,request_roadside_assistance_rule,approved
+JRN004,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.667,review,set event52 from digitalData.identity_bridge_success,request_roadside_assistance_rule,needs QA
+JRN004,event63,validation_error,Release QA validation failure,yes,0.799,active,set event63 from digitalData.validation_error,request_roadside_assistance_rule,approved
+JRN005,eVar12,journey_name,Persistent journey name,yes,0.87,active,set eVar12 from digitalData.journey_name,manage_vehicles_rule,approved
+JRN005,eVar18,member_status,"Known member, guest, household associate",yes,0.757,active,set eVar18 from digitalData.member_status,manage_vehicles_rule,approved
+JRN005,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.69,active,set eVar21 from digitalData.business_line,manage_vehicles_rule,needs QA
+JRN005,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.794,active,set eVar32 from digitalData.auth_state,manage_vehicles_rule,approved
+JRN005,eVar41,quote_type,Lead product type for quote journeys,no,0.524,review,set eVar41 from digitalData.quote_type,manage_vehicles_rule,approved
+JRN005,prop9,page_template,Template taxonomy for content performance,yes,0.864,active,set prop9 from digitalData.page_template,manage_vehicles_rule,approved
+JRN005,event14,journey_start,Journey start counter,yes,0.797,active,set event14 from digitalData.journey_start,manage_vehicles_rule,approved
+JRN005,event22,journey_complete,Journey completion counter,yes,0.848,active,set event22 from digitalData.journey_complete,manage_vehicles_rule,approved
+JRN005,event31,lead_submit,Lead generation completion counter,no,0.664,active,set event31 from digitalData.lead_submit,manage_vehicles_rule,approved
+JRN005,event44,self_service_success,Self-service transaction completion,yes,0.642,active,set event44 from digitalData.self_service_success,manage_vehicles_rule,needs QA
+JRN005,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.52,review,set event52 from digitalData.identity_bridge_success,manage_vehicles_rule,schema gap
+JRN005,event63,validation_error,Release QA validation failure,yes,0.809,active,set event63 from digitalData.validation_error,manage_vehicles_rule,approved
+JRN006,eVar12,journey_name,Persistent journey name,yes,0.683,active,set eVar12 from digitalData.journey_name,book_hotel_rule,needs QA
+JRN006,eVar18,member_status,"Known member, guest, household associate",yes,0.535,active,set eVar18 from digitalData.member_status,book_hotel_rule,schema gap
+JRN006,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.612,active,set eVar21 from digitalData.business_line,book_hotel_rule,needs QA
+JRN006,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.51,active,set eVar32 from digitalData.auth_state,book_hotel_rule,schema gap
+JRN006,eVar41,quote_type,Lead product type for quote journeys,yes,0.556,review,set eVar41 from digitalData.quote_type,book_hotel_rule,needs QA
+JRN006,prop9,page_template,Template taxonomy for content performance,yes,0.696,active,set prop9 from digitalData.page_template,book_hotel_rule,needs QA
+JRN006,event14,journey_start,Journey start counter,yes,0.54,active,set event14 from digitalData.journey_start,book_hotel_rule,schema gap
+JRN006,event22,journey_complete,Journey completion counter,yes,0.529,active,set event22 from digitalData.journey_complete,book_hotel_rule,schema gap
+JRN006,event31,lead_submit,Lead generation completion counter,yes,0.572,active,set event31 from digitalData.lead_submit,book_hotel_rule,needs QA
+JRN006,event44,self_service_success,Self-service transaction completion,yes,0.568,active,set event44 from digitalData.self_service_success,book_hotel_rule,needs QA
+JRN006,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.647,review,set event52 from digitalData.identity_bridge_success,book_hotel_rule,needs QA
+JRN006,event63,validation_error,Release QA validation failure,yes,0.532,active,set event63 from digitalData.validation_error,book_hotel_rule,schema gap
+JRN007,eVar12,journey_name,Persistent journey name,yes,0.516,active,set eVar12 from digitalData.journey_name,request_cruise_quote_rule,schema gap
+JRN007,eVar18,member_status,"Known member, guest, household associate",yes,0.639,active,set eVar18 from digitalData.member_status,request_cruise_quote_rule,needs QA
+JRN007,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.56,active,set eVar21 from digitalData.business_line,request_cruise_quote_rule,needs QA
+JRN007,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.485,active,set eVar32 from digitalData.auth_state,request_cruise_quote_rule,schema gap
+JRN007,eVar41,quote_type,Lead product type for quote journeys,yes,0.474,review,set eVar41 from digitalData.quote_type,request_cruise_quote_rule,schema gap
+JRN007,prop9,page_template,Template taxonomy for content performance,yes,0.433,active,set prop9 from digitalData.page_template,request_cruise_quote_rule,schema gap
+JRN007,event14,journey_start,Journey start counter,yes,0.483,active,set event14 from digitalData.journey_start,request_cruise_quote_rule,schema gap
+JRN007,event22,journey_complete,Journey completion counter,yes,0.523,active,set event22 from digitalData.journey_complete,request_cruise_quote_rule,schema gap
+JRN007,event31,lead_submit,Lead generation completion counter,yes,0.545,active,set event31 from digitalData.lead_submit,request_cruise_quote_rule,schema gap
+JRN007,event44,self_service_success,Self-service transaction completion,yes,0.459,active,set event44 from digitalData.self_service_success,request_cruise_quote_rule,schema gap
+JRN007,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.459,review,set event52 from digitalData.identity_bridge_success,request_cruise_quote_rule,schema gap
+JRN007,event63,validation_error,Release QA validation failure,yes,0.473,active,set event63 from digitalData.validation_error,request_cruise_quote_rule,schema gap
+JRN008,eVar12,journey_name,Persistent journey name,yes,0.737,active,set eVar12 from digitalData.journey_name,insurance_quote_rule,approved
+JRN008,eVar18,member_status,"Known member, guest, household associate",yes,0.676,active,set eVar18 from digitalData.member_status,insurance_quote_rule,needs QA
+JRN008,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.626,active,set eVar21 from digitalData.business_line,insurance_quote_rule,needs QA
+JRN008,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.496,active,set eVar32 from digitalData.auth_state,insurance_quote_rule,schema gap
+JRN008,eVar41,quote_type,Lead product type for quote journeys,yes,0.453,review,set eVar41 from digitalData.quote_type,insurance_quote_rule,schema gap
+JRN008,prop9,page_template,Template taxonomy for content performance,yes,0.616,active,set prop9 from digitalData.page_template,insurance_quote_rule,needs QA
+JRN008,event14,journey_start,Journey start counter,yes,0.653,active,set event14 from digitalData.journey_start,insurance_quote_rule,needs QA
+JRN008,event22,journey_complete,Journey completion counter,yes,0.643,active,set event22 from digitalData.journey_complete,insurance_quote_rule,needs QA
+JRN008,event31,lead_submit,Lead generation completion counter,yes,0.579,active,set event31 from digitalData.lead_submit,insurance_quote_rule,needs QA
+JRN008,event44,self_service_success,Self-service transaction completion,yes,0.703,active,set event44 from digitalData.self_service_success,insurance_quote_rule,needs QA
+JRN008,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.479,review,set event52 from digitalData.identity_bridge_success,insurance_quote_rule,schema gap
+JRN008,event63,validation_error,Release QA validation failure,yes,0.632,active,set event63 from digitalData.validation_error,insurance_quote_rule,needs QA
+JRN009,eVar12,journey_name,Persistent journey name,yes,0.689,active,set eVar12 from digitalData.journey_name,schedule_car_care_rule,needs QA
+JRN009,eVar18,member_status,"Known member, guest, household associate",yes,0.781,active,set eVar18 from digitalData.member_status,schedule_car_care_rule,approved
+JRN009,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.645,active,set eVar21 from digitalData.business_line,schedule_car_care_rule,needs QA
+JRN009,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.724,active,set eVar32 from digitalData.auth_state,schedule_car_care_rule,approved
+JRN009,eVar41,quote_type,Lead product type for quote journeys,no,0.706,review,set eVar41 from digitalData.quote_type,schedule_car_care_rule,approved
+JRN009,prop9,page_template,Template taxonomy for content performance,yes,0.796,active,set prop9 from digitalData.page_template,schedule_car_care_rule,approved
+JRN009,event14,journey_start,Journey start counter,yes,0.749,active,set event14 from digitalData.journey_start,schedule_car_care_rule,approved
+JRN009,event22,journey_complete,Journey completion counter,yes,0.86,active,set event22 from digitalData.journey_complete,schedule_car_care_rule,approved
+JRN009,event31,lead_submit,Lead generation completion counter,no,0.666,active,set event31 from digitalData.lead_submit,schedule_car_care_rule,approved
+JRN009,event44,self_service_success,Self-service transaction completion,yes,0.827,active,set event44 from digitalData.self_service_success,schedule_car_care_rule,approved
+JRN009,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.524,review,set event52 from digitalData.identity_bridge_success,schedule_car_care_rule,schema gap
+JRN009,event63,validation_error,Release QA validation failure,yes,0.784,active,set event63 from digitalData.validation_error,schedule_car_care_rule,approved
+JRN010,eVar12,journey_name,Persistent journey name,yes,0.624,active,set eVar12 from digitalData.journey_name,search_discounts_rule,needs QA
+JRN010,eVar18,member_status,"Known member, guest, household associate",yes,0.73,active,set eVar18 from digitalData.member_status,search_discounts_rule,approved
+JRN010,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.693,active,set eVar21 from digitalData.business_line,search_discounts_rule,needs QA
+JRN010,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.597,active,set eVar32 from digitalData.auth_state,search_discounts_rule,needs QA
+JRN010,eVar41,quote_type,Lead product type for quote journeys,no,0.56,review,set eVar41 from digitalData.quote_type,search_discounts_rule,approved
+JRN010,prop9,page_template,Template taxonomy for content performance,yes,0.808,active,set prop9 from digitalData.page_template,search_discounts_rule,approved
+JRN010,event14,journey_start,Journey start counter,yes,0.66,active,set event14 from digitalData.journey_start,search_discounts_rule,needs QA
+JRN010,event22,journey_complete,Journey completion counter,yes,0.75,active,set event22 from digitalData.journey_complete,search_discounts_rule,approved
+JRN010,event31,lead_submit,Lead generation completion counter,no,0.785,active,set event31 from digitalData.lead_submit,search_discounts_rule,approved
+JRN010,event44,self_service_success,Self-service transaction completion,yes,0.827,active,set event44 from digitalData.self_service_success,search_discounts_rule,approved
+JRN010,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.628,review,set event52 from digitalData.identity_bridge_success,search_discounts_rule,needs QA
+JRN010,event63,validation_error,Release QA validation failure,yes,0.798,active,set event63 from digitalData.validation_error,search_discounts_rule,approved
+JRN011,eVar12,journey_name,Persistent journey name,yes,0.432,active,set eVar12 from digitalData.journey_name,apply_for_credit_card_rule,schema gap
+JRN011,eVar18,member_status,"Known member, guest, household associate",yes,0.474,active,set eVar18 from digitalData.member_status,apply_for_credit_card_rule,schema gap
+JRN011,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.482,active,set eVar21 from digitalData.business_line,apply_for_credit_card_rule,schema gap
+JRN011,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.543,active,set eVar32 from digitalData.auth_state,apply_for_credit_card_rule,schema gap
+JRN011,eVar41,quote_type,Lead product type for quote journeys,yes,0.455,review,set eVar41 from digitalData.quote_type,apply_for_credit_card_rule,schema gap
+JRN011,prop9,page_template,Template taxonomy for content performance,yes,0.556,active,set prop9 from digitalData.page_template,apply_for_credit_card_rule,needs QA
+JRN011,event14,journey_start,Journey start counter,yes,0.533,active,set event14 from digitalData.journey_start,apply_for_credit_card_rule,schema gap
+JRN011,event22,journey_complete,Journey completion counter,yes,0.622,active,set event22 from digitalData.journey_complete,apply_for_credit_card_rule,needs QA
+JRN011,event31,lead_submit,Lead generation completion counter,yes,0.488,active,set event31 from digitalData.lead_submit,apply_for_credit_card_rule,schema gap
+JRN011,event44,self_service_success,Self-service transaction completion,yes,0.547,active,set event44 from digitalData.self_service_success,apply_for_credit_card_rule,schema gap
+JRN011,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.38,review,set event52 from digitalData.identity_bridge_success,apply_for_credit_card_rule,schema gap
+JRN011,event63,validation_error,Release QA validation failure,yes,0.399,active,set event63 from digitalData.validation_error,apply_for_credit_card_rule,schema gap
+JRN012,eVar12,journey_name,Persistent journey name,yes,0.728,active,set eVar12 from digitalData.journey_name,shop_travel_products_rule,approved
+JRN012,eVar18,member_status,"Known member, guest, household associate",yes,0.585,active,set eVar18 from digitalData.member_status,shop_travel_products_rule,needs QA
+JRN012,eVar21,business_line,"Membership, roadside, travel, insurance, retail",yes,0.465,active,set eVar21 from digitalData.business_line,shop_travel_products_rule,schema gap
+JRN012,eVar32,auth_state,"Signed in, anonymous, partially matched",yes,0.615,active,set eVar32 from digitalData.auth_state,shop_travel_products_rule,needs QA
+JRN012,eVar41,quote_type,Lead product type for quote journeys,no,0.584,review,set eVar41 from digitalData.quote_type,shop_travel_products_rule,approved
+JRN012,prop9,page_template,Template taxonomy for content performance,yes,0.64,active,set prop9 from digitalData.page_template,shop_travel_products_rule,needs QA
+JRN012,event14,journey_start,Journey start counter,yes,0.47,active,set event14 from digitalData.journey_start,shop_travel_products_rule,schema gap
+JRN012,event22,journey_complete,Journey completion counter,yes,0.497,active,set event22 from digitalData.journey_complete,shop_travel_products_rule,schema gap
+JRN012,event31,lead_submit,Lead generation completion counter,no,0.569,active,set event31 from digitalData.lead_submit,shop_travel_products_rule,approved
+JRN012,event44,self_service_success,Self-service transaction completion,yes,0.678,active,set event44 from digitalData.self_service_success,shop_travel_products_rule,needs QA
+JRN012,event52,identity_bridge_success,Cross-domain identity continuity,yes,0.561,review,set event52 from digitalData.identity_bridge_success,shop_travel_products_rule,needs QA
+JRN012,event63,validation_error,Release QA validation failure,yes,0.559,active,set event63 from digitalData.validation_error,shop_travel_products_rule,needs QA

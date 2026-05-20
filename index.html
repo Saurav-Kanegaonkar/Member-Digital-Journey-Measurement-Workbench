@@ -6,49 +6,174 @@
   <title>Member Digital Journey Measurement Workbench</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body style="--accent:#4f46e5;--bg:#f4f5ff">
+<body>
   <main class="shell">
     <header class="hero">
-      <div>
-        <p class="eyebrow">Workbench / member digital journey measurement analytics</p>
+      <div class="hero-copy">
+        <p class="eyebrow">Digital platforms analytics</p>
         <h1>Member Digital Journey Measurement Workbench</h1>
+        <p>Analytics requirements, schema governance, release QA, funnel diagnosis, and experiment readouts in one operating artifact for a membership-service digital team.</p>
       </div>
-      <aside>
-        <b>Purpose</b>
-        <span>Turn messy digital journey-level signals into a ranked operating artifact with recommendations a stakeholder can act on.</span>
-      </aside>
+      <div class="hero-panel">
+        <span>Operating question</span>
+        <strong>Which member journeys are ready for leadership reporting, which need measurement repair, and which should move into optimization?</strong>
+        <small id="generated-label"></small>
+      </div>
     </header>
-    <section class="metrics">
-      <article><span>Modeled rows</span><strong>6.0K+</strong><em>source-style</em></article>
-      <article><span>Ranked queue</span><strong>25</strong><em>digital journeys</em></article>
-      <article><span>Action pool</span><strong>220</strong><em>candidates</em></article>
-      <article><span>Review time</span><strong>-6 hrs</strong><em>weekly</em></article>
+
+    <section class="kpi-grid" id="kpis" aria-label="Key metrics"></section>
+
+    <nav class="tabs" aria-label="Workbench surfaces">
+      <button class="active" data-tab-target="command">Command center</button>
+      <button data-tab-target="schema">Schema governance</button>
+      <button data-tab-target="qa">Release QA and experiments</button>
+    </nav>
+
+    <p class="status-line" id="app-status">Workbench data loaded from CSV analysis outputs.</p>
+
+    <section class="tab-panel active" data-tab-panel="command">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 1</p>
+          <h2>Executive Journey Command Center</h2>
+        </div>
+        <p>Ranks web and app journeys by conversion value, measurement trust, identity continuity, validation risk, and experiment evidence.</p>
+      </div>
+
+      <section class="work-grid two-one">
+        <article class="panel wide">
+          <div class="panel-title">
+            <span>Priority queue</span>
+            <strong>Top journeys for operating review</strong>
+          </div>
+          <div class="table-scroll">
+            <table id="priority-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Journey</th>
+                  <th>Sessions</th>
+                  <th>Conv.</th>
+                  <th>Quality</th>
+                  <th>Holds</th>
+                  <th>Value</th>
+                  <th>Next move</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-title">
+            <span>Opportunity sizing</span>
+            <strong>Monthly value in the queue</strong>
+          </div>
+          <div class="bar-list" id="opportunity-bars"></div>
+        </article>
+      </section>
+
+      <section class="panel flush">
+        <div class="panel-title">
+          <span>Funnel diagnosis</span>
+          <strong>Fallout view for the highest priority journey</strong>
+        </div>
+        <div class="funnel" id="funnel"></div>
+      </section>
     </section>
-    <section class="main-grid">
-      <article class="panel lead">
-        <p class="eyebrow">Semantic model</p>
-        <h2>Priority queue</h2>
-        <table>
-          <thead><tr><th>digital journey</th><th>Signal</th><th>Risk</th><th>Next move</th></tr></thead>
-          <tbody>
-            <tr><td>Segment A</td><td>Source validation</td><td>High</td><td>Escalate with source check</td></tr>
-            <tr><td>Segment B</td><td>Self-service readiness</td><td>Medium</td><td>Test with clear owner</td></tr>
-            <tr><td>Segment C</td><td>Quality gap</td><td>Watch</td><td>Document metric definition</td></tr>
-          </tbody>
-        </table>
-      </article>
-      <article class="panel narrative">
-        <p class="eyebrow">What the analysis says</p>
-        <h2>Recommendations over screenshots</h2>
-        <p>The artifact is built around decisions, not dashboard decoration: each source table feeds a ranked queue, and each queue item resolves into a recommendation.</p>
-        <p>The strongest opportunities appear where performance upside, measurement quality, and operating readiness overlap.</p>
-      </article>
+
+    <section class="tab-panel" data-tab-panel="schema">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 2</p>
+          <h2>Measurement Schema and Governance Workbench</h2>
+        </div>
+        <p>Connects analytics variables, Launch rules, report-suite readiness, processing-rule coverage, and data dictionary lifecycle risk.</p>
+      </div>
+
+      <section class="work-grid one-two">
+        <article class="panel">
+          <div class="panel-title">
+            <span>Governance health</span>
+            <strong>Journey readiness buckets</strong>
+          </div>
+          <div class="mini-grid" id="schema-health"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-title">
+            <span>Schema queue</span>
+            <strong>Variable coverage and QA risk</strong>
+          </div>
+          <div class="table-scroll">
+            <table id="schema-table">
+              <thead>
+                <tr>
+                  <th>Journey</th>
+                  <th>Required vars</th>
+                  <th>Gaps</th>
+                  <th>Needs QA</th>
+                  <th>Coverage</th>
+                  <th>Risk</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
+      <section class="panel flush">
+        <div class="panel-title">
+          <span>Stakeholder reporting</span>
+          <strong>Standing requests tied to governed metrics</strong>
+        </div>
+        <div class="request-grid" id="requests"></div>
+      </section>
     </section>
-    <section class="recommendations">
-      <article><b>01</b><h3>Validate</h3><p>Confirm source definitions before scaling the insight into recurring reporting.</p></article>
-      <article><b>02</b><h3>Prioritize</h3><p>Move the highest-value digital journey segment into the next operating review.</p></article>
-      <article><b>03</b><h3>Automate</h3><p>Convert the queue into a stakeholder-ready digest for repeated decisions.</p></article>
+
+    <section class="tab-panel" data-tab-panel="qa">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 3</p>
+          <h2>Release QA and Experimentation Lab</h2>
+        </div>
+        <p>Shows pre-production validation failures, debugger-style payload checks, cross-domain identity risks, and Adobe Target style readouts.</p>
+      </div>
+
+      <section class="work-grid two-one">
+        <article class="panel wide">
+          <div class="panel-title">
+            <span>Release validation</span>
+            <strong>Scenarios holding measurement launch</strong>
+          </div>
+          <div class="table-scroll">
+            <table id="validation-table">
+              <thead>
+                <tr>
+                  <th>Scenario</th>
+                  <th>Expected payload</th>
+                  <th>Observed result</th>
+                  <th>Severity</th>
+                  <th>Owner</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-title">
+            <span>Experiment readouts</span>
+            <strong>Optimization evidence</strong>
+          </div>
+          <div class="experiment-list" id="experiments"></div>
+        </article>
+      </section>
     </section>
   </main>
+  <script src="src/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,49 @@
+journey_id,step_order,step_name,entrants,exits,continuation_rate,fallout_reason,instrumentation_status
+JRN001,1,Plan comparison,326196,52777,0.8382,identity handoff,schema gap
+JRN001,2,Account setup,273419,55023,0.7988,page performance,schema gap
+JRN001,3,Payment,218396,64348,0.7054,offer clarity,complete
+JRN001,4,Confirmation,154048,129860,0.157,page performance,schema gap
+JRN002,1,Renewal offer,584444,117494,0.799,tracking uncertainty,complete
+JRN002,2,Member lookup,466950,116249,0.751,offer clarity,needs QA
+JRN002,3,Payment,350701,92854,0.7352,tracking uncertainty,complete
+JRN002,4,Confirmation,257847,142588,0.447,offer clarity,schema gap
+JRN003,1,Benefit comparison,208459,38275,0.8164,page performance,needs QA
+JRN003,2,Eligibility check,170184,36136,0.7877,offer clarity,schema gap
+JRN003,3,Payment,134048,34535,0.7424,identity handoff,needs QA
+JRN003,4,Confirmation,99513,75814,0.2381,page performance,complete
+JRN004,1,Identify vehicle,410786,72379,0.8238,offer clarity,complete
+JRN004,2,Confirm location,338407,56464,0.8331,page performance,complete
+JRN004,3,Service type,281943,70926,0.7484,page performance,schema gap
+JRN004,4,Dispatch confirmation,211017,14946,0.9292,tracking uncertainty,needs QA
+JRN005,1,Sign in,228249,42698,0.8129,page performance,schema gap
+JRN005,2,Vehicle list,185551,47345,0.7448,page performance,complete
+JRN005,3,Edit vehicle,138206,40347,0.7081,offer clarity,complete
+JRN005,4,Save profile,97859,30724,0.686,tracking uncertainty,schema gap
+JRN006,1,Search destination,242519,53414,0.7798,form friction,needs QA
+JRN006,2,Select hotel,189105,47153,0.7507,offer clarity,needs QA
+JRN006,3,Traveler details,141952,42757,0.6988,identity handoff,complete
+JRN006,4,Booking handoff,99195,84654,0.1466,offer clarity,complete
+JRN007,1,Browse sailing,99105,21301,0.7851,offer clarity,complete
+JRN007,2,Select itinerary,77804,17721,0.7722,offer clarity,complete
+JRN007,3,Traveler details,60083,15753,0.7378,page performance,schema gap
+JRN007,4,Lead submit,44330,40255,0.0919,page performance,needs QA
+JRN008,1,Quote start,222817,43454,0.805,page performance,needs QA
+JRN008,2,Coverage details,179363,38886,0.7832,offer clarity,complete
+JRN008,3,Contact details,140477,34629,0.7535,identity handoff,complete
+JRN008,4,Lead submit,105848,87317,0.1751,form friction,schema gap
+JRN009,1,Find location,146069,30375,0.7921,identity handoff,complete
+JRN009,2,Select service,115694,24888,0.7849,form friction,needs QA
+JRN009,3,Choose appointment,90806,21449,0.7638,page performance,complete
+JRN009,4,Confirmation,69357,50719,0.2687,offer clarity,complete
+JRN010,1,Search offers,428182,82987,0.8062,identity handoff,schema gap
+JRN010,2,Offer detail,345195,72781,0.7892,form friction,needs QA
+JRN010,3,Partner handoff,272414,64303,0.764,tracking uncertainty,schema gap
+JRN010,4,Redemption,208111,112724,0.4583,page performance,complete
+JRN011,1,Offer detail,80663,19357,0.76,identity handoff,complete
+JRN011,2,Eligibility,61306,14910,0.7568,offer clarity,complete
+JRN011,3,Application handoff,46396,12395,0.7328,page performance,complete
+JRN011,4,Submit,34001,31514,0.0731,form friction,needs QA
+JRN012,1,Product detail,110001,19325,0.8243,page performance,schema gap
+JRN012,2,Cart,90676,20543,0.7734,form friction,needs QA
+JRN012,3,Checkout,70133,21157,0.6983,tracking uncertainty,complete
+JRN012,4,Confirmation,48976,43554,0.1107,page performance,complete

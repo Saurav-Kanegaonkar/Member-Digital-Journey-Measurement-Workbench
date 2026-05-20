@@ -1,0 +1,12 @@
+{
+  "journeys": 12,
+  "daily_metric_rows": 17280,
+  "schema_rows": 144,
+  "validation_scenarios": 38,
+  "release_holds": 34,
+  "top_priority_journey": "Request roadside assistance",
+  "top_priority_score": 567.44,
+  "weighted_measurement_quality": 67.26,
+  "weighted_identity_match_rate": 0.8588,
+  "estimated_monthly_value_in_queue": 1560633.86
+}

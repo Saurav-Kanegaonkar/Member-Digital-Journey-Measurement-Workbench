@@ -1,0 +1,39 @@
+scenario_id,journey_id,scenario,environment,expected_payload,observed_result,severity,fix_owner,release_gate
+VAL001-JRN001,JRN001,Join checkout completion,prod-parity,"event22, eVar12, eVar18",stale Launch rule in staging,high,Growth,hold
+VAL001-JRN002,JRN002,Join checkout completion,prod-parity,"event22, eVar12, eVar18",stale Launch rule in staging,high,Member Services,hold
+VAL001-JRN003,JRN003,Join checkout completion,prod-parity,"event22, eVar12, eVar18",missing identity bridge event,high,Growth,hold
+VAL001-JRN005,JRN005,Join checkout completion,prod-parity,"event22, eVar12, eVar18",required eVar unset on confirmation,high,Member Services,hold
+VAL001-JRN006,JRN006,Join checkout completion,prod-parity,"event22, eVar12, eVar18",stale Launch rule in staging,high,Travel,hold
+VAL001-JRN010,JRN010,Join checkout completion,prod-parity,"event22, eVar12, eVar18",report suite mismatch,high,Partner Marketing,hold
+VAL001-JRN012,JRN012,Join checkout completion,prod-parity,"event22, eVar12, eVar18",required eVar unset on confirmation,high,Retail,hold
+VAL002-JRN001,JRN001,Mobile app roadside dispatch,pre-prod,"event44, eVar32, event52",stale Launch rule in staging,critical,Growth,hold
+VAL002-JRN004,JRN004,Mobile app roadside dispatch,pre-prod,"event44, eVar32, event52",missing identity bridge event,critical,Roadside Ops,hold
+VAL002-JRN008,JRN008,Mobile app roadside dispatch,pre-prod,"event44, eVar32, event52",duplicate journey_complete beacon,critical,Insurance,hold
+VAL002-JRN011,JRN011,Mobile app roadside dispatch,pre-prod,"event44, eVar32, event52",missing identity bridge event,critical,Financial Services,hold
+VAL003-JRN003,JRN003,Travel partner handoff,pre-prod,"eVar21, event31, event52",report suite mismatch,high,Growth,hold
+VAL003-JRN005,JRN005,Travel partner handoff,pre-prod,"eVar21, event31, event52",duplicate journey_complete beacon,high,Member Services,hold
+VAL003-JRN007,JRN007,Travel partner handoff,pre-prod,"eVar21, event31, event52",required eVar unset on confirmation,high,Travel,hold
+VAL003-JRN009,JRN009,Travel partner handoff,pre-prod,"eVar21, event31, event52",stale Launch rule in staging,high,Car Care,hold
+VAL003-JRN012,JRN012,Travel partner handoff,pre-prod,"eVar21, event31, event52",report suite mismatch,high,Retail,hold
+VAL004-JRN001,JRN001,Insurance lead submission,pre-prod,"event31, eVar41, eVar18",stale Launch rule in staging,high,Growth,hold
+VAL004-JRN002,JRN002,Insurance lead submission,pre-prod,"event31, eVar41, eVar18",stale Launch rule in staging,high,Member Services,hold
+VAL004-JRN006,JRN006,Insurance lead submission,pre-prod,"event31, eVar41, eVar18",report suite mismatch,high,Travel,hold
+VAL004-JRN008,JRN008,Insurance lead submission,pre-prod,"event31, eVar41, eVar18",duplicate journey_complete beacon,high,Insurance,hold
+VAL004-JRN011,JRN011,Insurance lead submission,pre-prod,"event31, eVar41, eVar18",duplicate journey_complete beacon,high,Financial Services,hold
+VAL004-JRN012,JRN012,Insurance lead submission,pre-prod,"event31, eVar41, eVar18",required eVar unset on confirmation,high,Retail,hold
+VAL005-JRN001,JRN001,Credit card application handoff,pre-prod,"event31, event52, eVar32",stale Launch rule in staging,high,Growth,hold
+VAL005-JRN004,JRN004,Credit card application handoff,pre-prod,"event31, event52, eVar32",stale Launch rule in staging,high,Roadside Ops,hold
+VAL005-JRN008,JRN008,Credit card application handoff,pre-prod,"event31, event52, eVar32",stale Launch rule in staging,high,Insurance,hold
+VAL005-JRN009,JRN009,Credit card application handoff,pre-prod,"event31, event52, eVar32",matches expectation,low,Analytics,pass
+VAL005-JRN011,JRN011,Credit card application handoff,pre-prod,"event31, event52, eVar32",matches expectation,low,Analytics,pass
+VAL005-JRN012,JRN012,Credit card application handoff,pre-prod,"event31, event52, eVar32",required eVar unset on confirmation,high,Retail,hold
+VAL006-JRN004,JRN004,Discount redemption outbound,prod-parity,"event44, eVar12, prop9",duplicate journey_complete beacon,medium,Roadside Ops,hold
+VAL006-JRN008,JRN008,Discount redemption outbound,prod-parity,"event44, eVar12, prop9",matches expectation,low,Analytics,pass
+VAL006-JRN009,JRN009,Discount redemption outbound,prod-parity,"event44, eVar12, prop9",duplicate journey_complete beacon,medium,Car Care,hold
+VAL006-JRN010,JRN010,Discount redemption outbound,prod-parity,"event44, eVar12, prop9",report suite mismatch,medium,Partner Marketing,hold
+VAL006-JRN012,JRN012,Discount redemption outbound,prod-parity,"event44, eVar12, prop9",missing identity bridge event,medium,Retail,hold
+VAL007-JRN003,JRN003,Vehicle profile save,pre-prod,"event44, eVar18, eVar32",duplicate journey_complete beacon,medium,Growth,hold
+VAL007-JRN004,JRN004,Vehicle profile save,pre-prod,"event44, eVar18, eVar32",matches expectation,low,Analytics,pass
+VAL007-JRN005,JRN005,Vehicle profile save,pre-prod,"event44, eVar18, eVar32",required eVar unset on confirmation,medium,Member Services,hold
+VAL007-JRN008,JRN008,Vehicle profile save,pre-prod,"event44, eVar18, eVar32",required eVar unset on confirmation,medium,Insurance,hold
+VAL008-JRN004,JRN004,Retail checkout confirmation,pre-prod,"event22, eVar12, event52",duplicate journey_complete beacon,medium,Roadside Ops,hold

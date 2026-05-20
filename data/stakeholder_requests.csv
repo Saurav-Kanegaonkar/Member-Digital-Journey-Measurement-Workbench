@@ -1,0 +1,7 @@
+request_id,requesting_team,business_question,expected_artifact,cadence,status
+REQ001,Marketing,Campaign landing performance by journey and channel,Power BI scorecard,weekly,needs schema fix
+REQ002,Product,Release QA evidence for Launch changes,validation packet,weekly,needs owner decision
+REQ003,IT,Report-suite processing rule exceptions,defect queue,weekly,ready
+REQ004,Leadership,Self-service conversion and call deflection,monthly readout,monthly,ready
+REQ005,Travel,Partner handoff fallout and lead quality,journey brief,weekly,needs schema fix
+REQ006,Insurance,Quote-start to lead-submit funnel,conversion brief,release-based,needs schema fix

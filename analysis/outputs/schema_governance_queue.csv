@@ -1,0 +1,13 @@
+journey_id,journey_name,required_variables,schema_gaps,needs_qa,average_coverage,governance_risk
+JRN007,Request cruise quote,12,10,2,0.504,0.925
+JRN011,Apply for credit card,12,10,2,0.493,0.925
+JRN006,Book hotel,12,5,7,0.582,0.738
+JRN012,Shop travel products,10,3,6,0.58,0.63
+JRN008,Insurance quote,12,3,8,0.608,0.617
+JRN003,Upgrade plan,10,1,5,0.681,0.375
+JRN001,Join membership,10,0,6,0.693,0.33
+JRN010,Search discounts,10,0,5,0.712,0.275
+JRN005,Manage vehicles,10,1,2,0.759,0.21
+JRN009,Schedule car care,10,1,2,0.738,0.21
+JRN002,Renew membership,10,0,2,0.804,0.11
+JRN004,Request roadside assistance,10,0,1,0.856,0.055

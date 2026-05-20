@@ -1,0 +1,8 @@
+experiment_id,journey_id,experiment_name,variant,primary_metric,observed_lift,confidence,estimated_monthly_value,recommendation
+TGT001,JRN002,Plan comparison clarity,membership pricing table,self_service_success,0.0467,0.86,989442.63,ship
+TGT002,JRN006,Roadside location confirmation,map pin confirmation,journey_complete,0.0053,0.823,120541.46,iterate
+TGT003,JRN001,Travel search default sorting,hotel result relevance,lead_submit,0.0175,0.838,357837.39,iterate
+TGT004,JRN002,Insurance quote field order,shorter lead form,lead_submit,0.085,0.96,1799632.24,ship
+TGT005,JRN010,Discount offer cards,partner offer hierarchy,partner_handoff,-0.006,0.664,0,stop
+TGT006,JRN006,Car care appointment times,appointment slot grouping,journey_complete,0.0725,0.898,1663335.78,ship
+TGT007,JRN012,Payment reassurance copy,checkout trust messaging,journey_complete,0.0572,0.922,214148.07,ship
